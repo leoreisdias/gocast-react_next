@@ -67,3 +67,10 @@ yarn start
 - 🛸 Hooks | useEffect, useState, useContext and useRef
 - 🛸 Audio Tag
 <hr />
+
+## Support
+
+- 🧷 EsLint
+- 🧷 Prettier
+<hr />
+
