@@ -1,6 +1,18 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+<div style="display:flex; justify-content:center; align-items: center; gap: 12px">
+    <img src="./public/favicon.png" alt="Screenshot" width="50"/>
+    <h1  style="margin-top: 20px">GoCast | PodCast</h1>
+</div>
+<hr />
 
-## Getting Started
+<div style="display:flex; justify-content:center; align-items: center; gap: 12px">
+    <img src="https://i.imgur.com/q1Lkznw.png" alt="Screenshot" width="500"/>
+    <img src="https://i.imgur.com/dAhfRVH.png" alt="Screenshot" width="500"/>
+    <img src="https://i.imgur.com/zVtyylq.png" alt="Screenshot" width="500"/>
+</div>
+
+<hr />
+
+## Testing and Running
 
 First, run the development server:
 
@@ -10,25 +22,43 @@ npm run dev
 yarn dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Second, run the Json Server to get the Episodes List like an API:
 
-You can start editing the page by modifying `pages/index.js`. The page auto-updates as you edit the file.
+```bash
+npm run server
+# or
+yarn server
+```
 
-[API routes](https://nextjs.org/docs/api-routes/introduction) can be accessed on [http://localhost:3000/api/hello](http://localhost:3000/api/hello). This endpoint can be edited in `pages/api/hello.js`.
+<hr />
 
-The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/api-routes/introduction) instead of React pages.
+## To test GetStaticPaths
 
-## Learn More
+GetStaticPaths just work in Production Mode (only after build):
 
-To learn more about Next.js, take a look at the following resources:
+```bash
+yarn build
+# then
+yarn start
+```
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+<hr />
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+## Technologies
 
-## Deploy on Vercel
+- 🚀 TypeScript
+- 🚀 React.js
+- 🚀 Next.js
+- 🚀 Sass
+<hr />
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+## Main Concepts Included
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+- 🛸 Context API
+- 🛸 Server Side Rendering | SSR
+- 🛸 Static Site Generation | SSG
+- 🛸 Dynamic Route
+- 🛸 Dynamic Imports
+- 🛸 Hooks | useEffect, useState, useContext and useRef
+- 🛸 Audio Tag
+<hr />
