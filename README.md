@@ -4,6 +4,11 @@
 </p>
 <hr />
 
+<p>
+    O projeto GoCast é um "tocador" de Podcasts, trazendo também as descrições vinculadas a eles em uma página de detalhes.
+</p>
+<hr />
+
 <div align="center">
     <img src="https://i.imgur.com/q1Lkznw.png" alt="Screenshot" width="500"/>
     <img src="https://i.imgur.com/dAhfRVH.png" alt="Screenshot" width="500"/>
