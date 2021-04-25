@@ -1,10 +1,10 @@
-<div style="display:flex; justify-content:center; align-items: center; gap: 12px">
-    <img src="./public/favicon.png" alt="Screenshot" width="50"/>
-    <h1  style="margin-top: 20px">GoCast | PodCast</h1>
-</div>
+<p align="center">
+    <img src="./public/favicon.png" alt="Screenshot" width="75"/>
+    <h1 align="center">GoCast | PodCast</h1>
+</p>
 <hr />
 
-<div style="display:flex; justify-content:center; align-items: center; gap: 12px">
+<div align="center">
     <img src="https://i.imgur.com/q1Lkznw.png" alt="Screenshot" width="500"/>
     <img src="https://i.imgur.com/dAhfRVH.png" alt="Screenshot" width="500"/>
     <img src="https://i.imgur.com/zVtyylq.png" alt="Screenshot" width="500"/>
